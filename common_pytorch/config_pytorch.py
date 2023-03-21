@@ -103,7 +103,7 @@ def get_default_test_config():
 def update_config_from_file(config, config_file, check_necessity=True):
     # config = copy.deepcopy(_config)
     with open(config_file) as f:
-        exp_config = edict(yaml.load(f))
+        exp_config = edict(yaml.safe_load(f))
         for k, v in exp_config.items():
             if k in config:
                 if isinstance(v, dict):
