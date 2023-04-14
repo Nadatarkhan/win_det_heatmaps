@@ -3,11 +3,7 @@ Official implementation of our [paper](http://jcst.ict.ac.cn/EN/10.1007/s11390-0
 
 Chuan-Kang Li, Hong-Xin Zhang, Jia-Xin Liu, Yuan-Qing Zhang, Shan-Chen Zou, Yu-Tong Fang. Window Detection in Facades Using Heatmap Fusion[J].Journal of Computer Science and Technology, 2020, 35(4): 900-912.
 
-# Introduction
-Window detection is a key component in many graphics and vision applications related to 3D city modeling and scene visualization. We present a novel approach for learning to recognize windows in a colored facade image. Rather than predicting bounding boxes or performing facade segmentation, our system locates keypoints of windows, and learns keypoint relationships to group them together into windows. A further module  provides extra recognizable information at the window center. Locations and relationships of keypoints are encoded in different types of heatmaps, which are learned in an end-to-end network. 
-We have also constructed a facade dataset with 3418 annotated images  to facilitate  research in this field. It has richly varying facade structure, occlusion, lighting conditions, and angle of view.
-On our dataset, our method achieves  precision of 91.4\% and  recall of 91.0\% under 50\% IoU. We also make a quantitative comparison with state-of-the-art methods to verify the utility of our proposed method. 
-Applications based on our window detector are also demonstrated, such as window blending.
+
 
 ![image](https://github.com/lck1201/win_det_heatmaps/raw/master/docs/framework.jpg)
 
@@ -21,7 +17,8 @@ pip3 install -r requirements.txt
 
 **Dataset**
 
-The zju_facade_jcst2020 database is described in the paper, and now avaliable on [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5), [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing)
+1. [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5), 
+2. [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing)
 
 Facade images were collected from the Internet and existing datasets including [TSG-20](http://dib.joanneum.at/cape/TSG-20/), [TSG-60](http://dib.joanneum.at/cape/TSG-60/), [ZuBuD](http://www.vision.ee.ethz.ch/showroom/zubud/), [CMP](http://cmp.felk.cvut.cz/~tylecr1/facade/), [ECP](http://vision.mas.ecp.fr/Personnel/teboul/data.php), and then data cleaning proceeded to ensure data quality standards. Using the open source software [LabelMe](https://github.com/wkentaro/labelme), we manually annotated the positions of four corners of windows in order.
 
