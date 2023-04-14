@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 
 **Dataset**
 
-1. [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5), 
+1. [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)
 2. [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing)
 
 Facade images were collected from the Internet and existing datasets including [TSG-20](http://dib.joanneum.at/cape/TSG-20/), [TSG-60](http://dib.joanneum.at/cape/TSG-60/), [ZuBuD](http://www.vision.ee.ethz.ch/showroom/zubud/), [CMP](http://cmp.felk.cvut.cz/~tylecr1/facade/), [ECP](http://vision.mas.ecp.fr/Personnel/teboul/data.php), and then data cleaning proceeded to ensure data quality standards. 
