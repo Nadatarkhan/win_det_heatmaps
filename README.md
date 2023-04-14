@@ -1,8 +1,8 @@
 # Window Detection in Facades Using Heatmaps Fusion
-Official implementation of our [paper](http://jcst.ict.ac.cn/EN/10.1007/s11390-020-0253-4).
+ Paper Reference:
+ (http://jcst.ict.ac.cn/EN/10.1007/s11390-020-0253-4).
 
 Chuan-Kang Li, Hong-Xin Zhang, Jia-Xin Liu, Yuan-Qing Zhang, Shan-Chen Zou, Yu-Tong Fang. Window Detection in Facades Using Heatmap Fusion[J].Journal of Computer Science and Technology, 2020, 35(4): 900-912.
-
 
 
 ![image](https://github.com/lck1201/win_det_heatmaps/raw/master/docs/framework.jpg)
@@ -66,27 +66,6 @@ python infer.py --cfg /path/to/yaml/config \
     <img src="https://github.com/lck1201/win_det_heatmaps/raw/master/docs/example.jpg" width="850">
 </div>
 
-# Applications
-**Facade Unification**
-
-We have developed a computational workflow for window texture blending based on our window detection method. Based on our technique, graphics designer can easily manipulate facade photos to create ideal building textures, while removing windows which are unsatisfactory  due to their open or closed status, lighting conditions and occlusion,  replacing them with the selected unified window texture.
-<div align="center">
-    <img src="https://github.com/lck1201/win_det_heatmaps/raw/master/docs/textureBlendingApp.jpg" width="650">
-</div>
-
-**Facade Beautification**
-
-Applying the above workflow, image beautification can be also performed to generate visually pleasant results with mixed features. 
-<div align="center">
-    <img src="https://github.com/lck1201/win_det_heatmaps/raw/master/docs/facade_beautification.jpg" width="550">
-</div>
-
-**Facade Analytics**
-
-As our method can efficiently locate windows in urban facade images, it is of use for automatically analyzing semantic structure and extracting numerical information. With additional simple steps, it is easy to determine the windows in a single row or  column. Furthermore, it can be adopted to predict building layers and symmetric feature lines.
-<div align="center">
-    <img src="https://github.com/lck1201/win_det_heatmaps/raw/master/docs/facade_analytics.jpg" width="650">
-</div>
 
 # Citation
 If our code/dataset/models/paper helps your research, please cite with:
