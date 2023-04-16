@@ -78,6 +78,7 @@ def main():
 
     # train and valid
     logger.info("Test DB size: {}.".format(len(infer_imdbs)))
+    # print("done")
 
     beginT = time.time()
     inferNet(infer_data_loader, net, merge_hm_flip_func, merge_tag_flip_func, flip_pairs,
