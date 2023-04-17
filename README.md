@@ -88,7 +88,5 @@ python infer.py --cfg /path/to/yaml/config \
 }    
 ```
 
- 
-# Acknowledgement
-The major contributors of this repository include [Chuankang Li](https://github.com/lck1201), [Yuanqing Zhang](https://github.com/yuanqing-zhang), [Shanchen Zou](https://github.com/Generior), and [Hongxin Zhang](https://person.zju.edu.cn/zhx).
+
 
