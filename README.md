@@ -69,7 +69,7 @@ python infer.py --cfg /path/to/yaml/config \
 
 
 # Citation
-If our code/dataset/models/paper helps your research, please cite with:
+
 ```bitex
 @article{Chuan-Kang Li:900, 
     author = {Chuan-Kang Li, Hong-Xin Zhang, Jia-Xin Liu, Yuan-Qing Zhang, Shan-Chen Zou, Yu-Tong Fang},
